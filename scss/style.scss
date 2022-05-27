@@ -8,7 +8,7 @@
 @import "_nullstyle";
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontNunitoSans;
 }
 
 
@@ -27,6 +27,7 @@ body {
 // * ===== all sections ===== * //
 @import "_great";
 @import "_parner";
+@import "_result";
 
 
 // * ===== footer ===== * //

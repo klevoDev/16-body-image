@@ -46,7 +46,7 @@ h6 {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .wrapper {
@@ -59,7 +59,6 @@ body {
 }
 
 .label {
-  font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 135%;
@@ -75,12 +74,15 @@ body {
 }
 
 .text {
-  font-family: "Nunito Sans", sans-serif;
   line-height: 180%;
   color: #284854;
 }
 
 .page__great {
+  margin-bottom: 80px;
+}
+
+.page__parner {
   margin-bottom: 80px;
 }
 
@@ -152,6 +154,7 @@ body {
 }
 
 .parner__wrap-image {
+  margin-right: -7px;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 312px;
           flex: 0 0 312px;
@@ -159,4 +162,36 @@ body {
 
 .parner__image {
   max-width: 100%;
+}
+
+.result__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.result__wrap-image {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 285px;
+          flex: 0 0 285px;
+  margin-left: 6px;
+}
+
+.result__image {
+  max-width: 100;
+}
+
+.result__body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 13px 80px 0 130px;
+}
+
+.result__label {
+  margin-bottom: 10px;
+}
+
+.result__subheading {
+  margin-bottom: 33px;
 }

@@ -1,7 +1,7 @@
 .parner {
     &__body {
         flex: 1 1 auto;
-        padding: 18px 84px 0 62px;
+        padding: 18px 84px 0 62px; // 62 двигал, значение в макете 55
     }
 
     &__row {
@@ -17,10 +17,11 @@
     }
 
     &__text {
-        max-width: 487px;
+        max-width: 487px; // тут вопрос
     }
 
     &__wrap-image {
+        margin-right: -7px; // тут вопрос
         flex: 0 0 312px;
     }
 

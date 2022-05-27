@@ -1,0 +1,32 @@
+// * ===== fonts ===== * //
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+
+// * ===== null ===== * //
+@import "_variables";
+@import "_nullstyle";
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+// * ===== bem blocks ===== * //
+@import "_blocks";
+
+
+// * ===== header ===== * //
+
+
+
+// * ===== main ===== * //
+@import "_page";
+
+
+// * ===== all sections ===== * //
+@import "_great";
+
+
+
+// * ===== footer ===== * //

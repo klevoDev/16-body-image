@@ -1,0 +1,29 @@
+.wrapper {
+    margin: 37px 0 139px;
+}
+
+.container {
+    max-width: 992px;
+    margin: 0 auto;
+    // padding: 0 15px;
+    // box-sizing: content-box;
+}
+.label {
+    font-family: $fontNunitoSans;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 135%;
+    color: $colorDarkGreen;
+}
+.subheading {
+    font-family: $fontRoboto;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 118%;
+    color: $colorGreen;
+}
+.text {
+    font-family: $fontNunitoSans;
+    line-height: 180%;
+    color: $colorDarkGrey;
+}

@@ -125,3 +125,38 @@ body {
 .great__subheading {
   margin-bottom: 2px;
 }
+
+.parner__body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 18px 84px 0 62px;
+}
+
+.parner__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.parner__label {
+  margin-bottom: 10px;
+}
+
+.parner__subheading {
+  margin-bottom: 10px;
+}
+
+.parner__text {
+  max-width: 487px;
+}
+
+.parner__wrap-image {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 312px;
+          flex: 0 0 312px;
+}
+
+.parner__image {
+  max-width: 100%;
+}

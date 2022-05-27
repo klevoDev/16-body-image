@@ -1,3 +1,3 @@
-## name
+## Flex body and image
 
-description [here]()
+Practice [here](https://klevodev.github.io/16-body-image/)

@@ -1,0 +1,31 @@
+.parner {
+    &__body {
+        flex: 1 1 auto;
+        padding: 18px 84px 0 62px;
+    }
+
+    &__row {
+        display: flex;
+    }
+
+    &__label {
+        margin-bottom: 10px;
+    }
+
+    &__subheading {
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        max-width: 487px;
+    }
+
+    &__wrap-image {
+        flex: 0 0 312px;
+    }
+
+    &__image {
+        max-width: 100%;
+    }
+}
+

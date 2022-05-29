@@ -1,13 +1,14 @@
 .page {
-
     &__great {
         margin-bottom: 80px;
     }
 
-    &__parner {
+    &__partner {
         margin-bottom: 80px;
+        display: none;
     }
 
     &__result {
+        display: none;
     }
 }

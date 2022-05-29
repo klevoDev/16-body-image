@@ -1,11 +1,11 @@
-.parner {
-    &__body {
-        flex: 1 1 auto;
-        padding: 18px 84px 0 62px; // 62 двигал, значение в макете 55
-    }
-
+.partner {
     &__row {
         display: flex;
+    }
+
+    &__body {
+        flex: 1 1 auto;
+        padding: 18px 138px 0 55px; // 62 двигал, значение в макете 55
     }
 
     &__label {
@@ -17,11 +17,11 @@
     }
 
     &__text {
-        max-width: 487px; // тут вопрос
+        
     }
 
     &__wrap-image {
-        margin-right: -7px; // тут вопрос
+        // margin-right: -7px; // тут вопрос
         flex: 0 0 312px;
     }
 

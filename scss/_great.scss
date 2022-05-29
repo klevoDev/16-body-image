@@ -1,5 +1,4 @@
 .great {
-
     &__heading {
         font-family: $fontRoboto;
         font-weight: 700;
@@ -41,3 +40,46 @@
     }
 }
 
+// 1920
+// 1600
+// 1440
+// 1336
+// ========
+// 1024
+// 768
+
+// Для ширина экрана от 0 до 500 вкл
+@media (max-width: 880px) {
+    .great {
+        &__row {
+            flex-wrap: wrap-reverse;
+            justify-content: center;
+        }
+
+        &__body {
+            padding: 0;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 445px) {
+    .great {
+        &__label {
+            margin-bottom: 0px;
+            font-size: 18px;
+        }
+
+        &__subheading {
+            font-size: 34px;
+        }
+
+        &__text {
+            text-align: justify;
+        }
+        &__wrap-image {
+            flex: 0 0 260px;
+        }
+    }
+}

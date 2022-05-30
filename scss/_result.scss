@@ -1,5 +1,4 @@
 .result {
-
     &__row {
         display: flex;
     }
@@ -30,3 +29,43 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .result {
+        &__body {
+            padding: 0;
+
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media (max-width: 880px) {
+    .result {
+        &__row {
+            flex-wrap: wrap-reverse;
+            justify-content: center;
+
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 445px) {
+    .result {
+        &__label {
+            margin-bottom: 0px;
+            font-size: 18px;
+        }
+
+        &__subheading {
+            font-size: 34px;
+        }
+
+        &__text {
+            text-align: justify;
+        }
+        &__wrap-image {
+            flex: 0 0 260px;
+        }
+    }
+}

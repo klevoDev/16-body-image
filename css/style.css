@@ -87,7 +87,6 @@ body {
 
 .page__partner {
   margin-bottom: 80px;
-  display: none;
 }
 
 .page__result {
@@ -198,6 +197,48 @@ body {
 
 .partner__image {
   max-width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .partner__body {
+    padding: 0;
+  }
+}
+
+@media (max-width: 880px) {
+  .partner__row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .partner__body {
+    padding: 0;
+  }
+  .partner__body {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 445px) {
+  .partner__label {
+    margin-bottom: 0px;
+    font-size: 18px;
+  }
+  .partner__subheading {
+    font-size: 34px;
+  }
+  .partner__text {
+    text-align: justify;
+  }
+  .partner__wrap-image {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 260px;
+            flex: 0 0 260px;
+  }
 }
 
 .result__row {
